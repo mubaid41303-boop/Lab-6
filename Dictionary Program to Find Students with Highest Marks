@@ -1,0 +1,24 @@
+marks = {
+    'Ali': 85,
+    'Sara': 95,
+    'Ahmed': 95,
+    'Noor': 78
+}
+
+# find highest marks
+highest = 0
+for m in marks.values():
+    if m > highest:
+        highest = m
+
+print("Highest marks:", highest)
+
+for name in marks:
+    if marks[name] == highest:
+        print(name, "-", marks[name])
+
+Output: 
+
+Highest marks: 95
+Sara - 95
+Ahmed - 95
