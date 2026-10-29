@@ -11,4 +11,5 @@ for n in nums:
 print(result)
 
 Output: 
+
 {2: 3, 3: 2, 5: 2, 8: 1}
